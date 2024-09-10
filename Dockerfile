@@ -25,6 +25,7 @@ RUN \
     libqrencode-tools \
     net-tools \
     openresolv \
+    sipcalc \
     wireguard-tools && \
   echo "wireguard" >> /etc/modules && \
   cd /sbin && \
